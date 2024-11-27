@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-image: url(/Resources/bgImg.png);
+}
+
+center {
+    font-family: cooper;
+}
+
+#HeaderTitle {
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size:xxx-large;
+    font-family: Cooper;
+}
+
+#subheader{
+    color: rgb(203, 213, 246);
+}
+
+#button1:link, #button1:visited{
+    background-color: #2f6e2c;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px; /* Optional: Rounded corners */
+    font-size: 16px; /* Optional: Font size */
+    max-width: 40%; /* Limit button width */
+    width: 100%; /* Ensures buttons stretch within the max-width */
+    margin: 0 auto; /* Centers the buttons */
+}
+
+#button1:hover, #button1:active{
+    background-color: rgb(0, 0, 0); /* Hover and active state */
+    max-width: 40%; /* Limit button width */
+    width: 100%; /* Ensures buttons stretch within the max-width */
+    margin: 0 auto; /* Centers the buttons */
+}
+  .button-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between buttons */
+}
+
+
+footer {
+    font-family: sans-serif;
+    margin-top: 40%;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* Ensures footer stays at the bottom */
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
