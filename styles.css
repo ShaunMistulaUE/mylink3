@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url(/Resources/bgImg.png);
+    background-image: url(/Resources/bg.png);
     background-size: cover;
 }
 
