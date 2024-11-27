@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    background-image: url(/Resources/bg.webp);
+    background-image: url(./Resources/bg.webp);
     background-color: aquamarine;
     background-size: cover;
 }
