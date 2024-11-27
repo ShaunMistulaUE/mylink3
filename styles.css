@@ -1,3 +1,13 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.parkinsans-font{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* Ensure the page occupies full height */
 html, body {
     margin: 0;
@@ -14,7 +24,7 @@ body {
 }
 
 center {
-    font-family: Cooper;
+    font-family: Parkinsans;
 }
 
 /* Header styles */
@@ -23,16 +33,17 @@ center {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-size: xxx-large;
-    font-family: Cooper;
+    font-family: Parkinsans;
 }
 
 #subheader {
+    font-family: Parkinsans;
     color: rgb(203, 213, 246);
 }
 
 /* Button general styles */
 #button:link, #button:visited {
-    background-color: #0a7b33;
+    background-color: #01010160;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -48,10 +59,10 @@ center {
 /* Hover and active button styles */
 #button:hover, #button:active {
     background-color: rgb(255, 255, 255);
-    color: black;
-    max-width: 40%;
+    color: rgb(0, 0, 0);
+    max-width: 50%;
     width: 100%;
-    margin: 0 auto;
+    margin: 1 auto;
 }
 
 /* Button container */
