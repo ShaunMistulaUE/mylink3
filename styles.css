@@ -1,3 +1,4 @@
+/* Ensure the page occupies full height */
 html, body {
     margin: 0;
     padding: 0;
@@ -8,63 +9,92 @@ html, body {
 
 body {
     background-image: url(/Resources/bgImg.png);
+    background-size: cover;
 }
 
 center {
-    font-family: cooper;
+    font-family: Cooper;
 }
 
+/* Header styles */
 #HeaderTitle {
     padding-top: 10%;
     color: rgb(255, 255, 255);
     font-style: normal;
-    font-size:xxx-large;
+    font-size: xxx-large;
     font-family: Cooper;
 }
 
-#subheader{
+#subheader {
     color: rgb(203, 213, 246);
 }
 
-#button1:link, #button1:visited{
-    background-color: #2f6e2c;
+/* Button general styles */
+#button:link, #button:visited {
+    background-color: #0a7b33;
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 5px; /* Optional: Rounded corners */
-    font-size: 16px; /* Optional: Font size */
-    max-width: 40%; /* Limit button width */
-    width: 100%; /* Ensures buttons stretch within the max-width */
-    margin: 0 auto; /* Centers the buttons */
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: 40%;
+    width: 100%;
+    margin: 0 auto;
 }
 
-#button1:hover, #button1:active{
-    background-color: rgb(0, 0, 0); /* Hover and active state */
-    max-width: 40%; /* Limit button width */
-    width: 100%; /* Ensures buttons stretch within the max-width */
-    margin: 0 auto; /* Centers the buttons */
+/* Hover and active button styles */
+#button:hover, #button:active {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    max-width: 40%;
+    width: 100%;
+    margin: 0 auto;
 }
-  .button-list {
+
+/* Button container */
+.button-list {
     display: flex;
     flex-direction: column;
     gap: 10px; /* Space between buttons */
 }
 
+/* Individual button colors */
+#button1 {
+    background-color: #275ccd; /* Facebook color */
+}
 
+#button1:hover {
+    background-color: #1d4d9c; /* Darker shade for hover */
+}
+
+#button1 {
+    background-color: #e4405f; /* Instagram color */
+}
+
+#button2:hover {
+    background-color: #c13584; /* Darker shade for hover */
+}
+
+#button3 {
+    background-color: #ff0055; /* TikTok color */
+}
+
+#button3:hover {
+    background-color: #db003d; /* Darker shade for hover */
+}
+
+/* Footer styles */
 footer {
     font-family: sans-serif;
-    margin-top: 40%;
     background-color: #000000;
     color: white;
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
-    position: relative;
-    bottom: 0;
+    margin-top: auto;
     width: 100%;
-    margin-top: auto; /* Ensures footer stays at the bottom */
 }
 
 footer a {
